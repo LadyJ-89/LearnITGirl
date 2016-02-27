@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="12F9C3DE-8E9E-8D59-6689-C3696E91A400" containerWithKeyObject="E842C11F-C835-E396-34AD-51D155B7C42F" localFKIndex="D0099F5A-48C7-AA0C-E160-E2B9FCD704B9" name="DRUG_TRACK_DRUGS_FK">
+<createdBy>Joanna (Admin)</createdBy>
+<createdTime>2016-02-27 12:56:09 UTC</createdTime>
+<ownerDesignName>LearnITGirl</ownerDesignName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>EF568809-3D0D-11D8-9E0F-CDC787595DDA</referredTableID>
+<keyObject>5E0DBAAC-C23B-49CD-B3CD-5BA3528E8F6D</keyObject>
+<referredKeyID>5E0DBAAC-C23B-49CD-B3CD-5BA3528E8F6D</referredKeyID>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

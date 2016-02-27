@@ -1,0 +1,83 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E842C11F-C835-E396-34AD-51D155B7C42F" name="DRUG_TRACK">
+<createdBy>Joanna (Admin)</createdBy>
+<createdTime>2016-02-27 12:54:18 UTC</createdTime>
+<ownerDesignName>LearnITGirl</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="USER_ID" id="E21EA57B-1890-E311-C58C-4D10911850CD">
+<createdBy>Joanna (Admin)</createdBy>
+<createdTime>2016-02-27 12:54:40 UTC</createdTime>
+<ownerDesignName>LearnITGirl</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CCD0A796-8EA7-9A5C-9C6C-B81FB2AD35F6" referredColumn="CAB318BA-DDD2-8C43-EC5D-B358C0F762C5"/>
+</associations>
+</Column>
+<Column name="DRUG_ID" id="CA13210B-3873-CEFF-C191-C8644EB7FD3F">
+<createdBy>Joanna (Admin)</createdBy>
+<createdTime>2016-02-27 12:55:05 UTC</createdTime>
+<ownerDesignName>LearnITGirl</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="12F9C3DE-8E9E-8D59-6689-C3696E91A400" referredColumn="5F9EB552-723B-9F02-022F-E8C08D488697"/>
+</associations>
+</Column>
+<Column name="TAKEN" id="26F79712-2EC7-0FA3-4E01-22DD71C8F18E">
+<createdBy>Joanna (Admin)</createdBy>
+<createdTime>2016-02-27 12:55:38 UTC</createdTime>
+<ownerDesignName>LearnITGirl</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EDDD5EDE-B1C1-4CF3-0132-4E8EBAB6DA15" name="DRUG_TRACK__IDX">
+<createdBy>Joanna (Admin)</createdBy>
+<createdTime>2016-02-27 12:56:49 UTC</createdTime>
+<ownerDesignName>LearnITGirl</ownerDesignName>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E21EA57B-1890-E311-C58C-4D10911850CD"/>
+<colUsage columnID="CA13210B-3873-CEFF-C191-C8644EB7FD3F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B11B1F7F-38CB-013F-5AF7-8ADAE4A7FFC0" name="DRUG_TRACK_USERS_FK">
+<createdBy>Joanna (Admin)</createdBy>
+<createdTime>2016-02-27 12:56:00 UTC</createdTime>
+<ownerDesignName>LearnITGirl</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E21EA57B-1890-E311-C58C-4D10911850CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D0099F5A-48C7-AA0C-E160-E2B9FCD704B9" name="DRUG_TRACK_DRUGS_FK">
+<createdBy>Joanna (Admin)</createdBy>
+<createdTime>2016-02-27 12:56:09 UTC</createdTime>
+<ownerDesignName>LearnITGirl</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA13210B-3873-CEFF-C191-C8644EB7FD3F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
