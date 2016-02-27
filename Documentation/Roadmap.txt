@@ -1,0 +1,41 @@
+Week 1
+Set up project on Github
+Select tools and frameworks
+Create a base WebService in Java and commit it to Github
+Define and create a base Database schema (define tables and relations needed)
+
+Week 2
+Learn web basics like HTTP, GET & POST response, JSP and servlets .
+Create sample Rest service
+
+Week 3
+Create mockups for the user interface
+Define the classes the application will need
+
+Week 4
+Create webservice classes in Java
+
+Week 5
+Continue with webservice functionality
+Write and perform unit and integration tests for the classes
+
+Week 6
+Create end-user websites
+
+Week 7
+Implement backend functionality for end-user
+Continue with user interface functionality
+
+Week 8
+Continue with backend and user interface functionality
+Write and perform unit and integration tests
+
+Weeks 9-10
+Extend application functionality
+
+Weeks 11
+Perform manual tests on the user interface
+
+Week 12
+Solve any bugs
+Publish the app on the Play Store
