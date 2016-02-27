@@ -36,7 +36,7 @@
                     <li><a href="#about"><i class="fa fa-shield"></i> About</a></li>
                     <li><a href="#contact"><i class="fa fa-comment"></i> Contact</a></li>
                     <li><a href="#users"><i class="fa fa-comment"></i> Users</a></li>
-                    <li><a href="#user/:1"><i class="fa fa-comment"></i> User</a></li>
+                    <li><a href="#user/:user_id"><i class="fa fa-comment"></i> User</a></li>
                 </ul>
             </div>
             </nav>

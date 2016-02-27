@@ -36,31 +36,16 @@ scotchApp.controller('contactController', function($scope) {
 	$scope.message = 'Contact us! JK. This is just a demo.';
 });
 
-scotchApp.controller('usersController', function($scope, $http) {
-	$http.get('http://localhost:8181/spingService/service/users').
-    success(function(data) {
-        $scope.users = data;
-    });
-});
-
-scotchApp.controller('userController', function($scope,$http) {
-	$http.get('http://localhost:8181/spingService/service/user?id=100').
-    success(function(data) {
-        $scope.user = data;
-    });
-    
-});
-/*
-scotchApp.controller('usersController', function(UsersService) {
+scotchApp.controller('usersController', function($scope, UsersService) {
 	UsersService.all()
     .then(function (result) {
     	$scope.users = result.data;
     });
 });
 
-scotchApp.controller('userController', function(UsersService) {
-	UsersService.fetch(100)
+scotchApp.controller('userController', function($scope, $routeParams, UsersService) {
+	UsersService.fetch($routeParams.user_id)
     .then(function (result) {
     	$scope.user = result.data;
     });
-});*/
+});
