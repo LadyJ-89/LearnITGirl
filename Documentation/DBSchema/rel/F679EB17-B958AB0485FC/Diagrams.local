@@ -1,4 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<oracle.dbtools.crest.model.design.relational.RelationalDesign>
-   <object objectType="main_view" objectID="58F5FF05-1F4B-0CDE-C233-BEFDDA41C390" name="DRUG_TRACKER" visible="true"/>
-</oracle.dbtools.crest.model.design.relational.RelationalDesign>
