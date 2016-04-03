@@ -1,0 +1,13 @@
+<ion-view view-title="Drugs">
+  <ion-content>
+    <ion-list>
+	  <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="drug in drugs" type="item-text-wrap" href="#/tab/drugs/{{drug.drugId}}">
+		<h2>{{drug.drugname}}</h2>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+      </ion-item>
+    </ion-list>
+	<button class="button button-block button-positive" ui-sref="tab.drug-addDrug">
+		Add drug
+	</button>
+  </ion-content>
+</ion-view>

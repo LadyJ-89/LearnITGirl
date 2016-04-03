@@ -1,0 +1,15 @@
+<ion-view view-title="Signs">
+  <ion-content>
+    <ion-list>
+	  <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="sign in signs" type="item-text-wrap" href="#/tab/signs/{{sign.signId}}">
+		<h2>{{sign.section}}</h2>
+		<p>{{sign.value}}</p>
+		<p>{{sign.signDate}}</p>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+      </ion-item>
+    </ion-list>
+	<button class="button button-block button-positive" ui-sref="tab.sign-addSign">
+		Add vital sign
+	</button>
+  </ion-content>
+</ion-view>

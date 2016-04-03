@@ -1,0 +1,24 @@
+<ion-view view-title="Settings">
+  <ion-content>
+    <ion-list>
+	<label class="item item-input">
+    <input type="text" placeholder={{user.userId}}>
+  </label>
+  <label class="item item-input">
+    <input type="text" placeholder={{user.username}}>
+  </label>
+    <label class="item item-input">
+    <input type="text" placeholder={{user.email}}>
+  </label>
+      <label class="item item-input">
+    <input type="password" placeholder="Password">
+  </label>
+    <ion-toggle  ng-model="settings.enableFriends">
+        Notifications on
+    </ion-toggle>
+	<button class="button button-block button-positive">
+		Change
+	</button>
+    </ion-list>
+  </ion-content>
+</ion-view>
